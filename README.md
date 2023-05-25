@@ -11,7 +11,7 @@ It is also multilingual with 394 question answer pairs. Our paper about this dat
 
 More information about the challenge can be found at https://www.nliwod.org/challenge
 
-## Dndpoint
+## Endpoint
 To run the benchmark replicably, please use our provided stable SPARQL endpoint at https://skynet.coypu.org/wikidata/.
 We decide to set up our local endpoint to cope with problems in version changes of the endpoint and endpoint technology.
 This problem is especially true when switching between the graph stores HDT and Fuseki, which leads to different answer sets. This is due to syntax errors and execution timeouts in their internal optimizations such as basic graph pattern reordering or indexing. Providing a stable endpoint in connection with a stable dump and dataset, helps to alleviate this challenge.
